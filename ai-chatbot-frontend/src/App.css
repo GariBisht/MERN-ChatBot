@@ -1,0 +1,60 @@
+
+.chat-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full height of viewport */
+  background-color: hwb(129 86% 6%); /* optional background color */
+}
+
+
+.chat-container {
+  max-width: 600px;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* align-items: center; */
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Your existing styles */
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  height: 300px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  margin-bottom: 1rem;
+}
+
+.user {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.bot {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-input input {
+  flex: 7;
+  padding: 0.5rem;
+}
+
+.chat-input button {
+  padding: 0.5rem 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
